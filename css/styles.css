@@ -17,12 +17,9 @@ h1{
   background-color: #a5cfce;
   color: ivory;
   height: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-
-/*.col-md-2{
-  margin-top: 0px;
-  margin-left: 0px;
-}*/
 
 .well{
   height: 50vh auto;
@@ -30,13 +27,11 @@ h1{
 }
 
 .image{
-  float: left;
+  float: right;
+  text-align: center;
   height: 300px;
   width: 300px;
-  /*display: inline;
-  margin: 0 auto;
-  height: 100%;
-  width: auto;*/
+  margin: 0px
 }
 
 .img-cropper{
@@ -45,16 +40,25 @@ h1{
   position: relative;
   overflow: hidden;
   border-radius: 50%;
+  margin: 0px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .biosection{
   width: 100%;
   text-align: justify;
-  max-height: 300px;
+  max-height: 320px;
   display: inline-block;
 }
 
-.column1{
+.col-md-4{
+  width: 33%;
+  float:left;
+}
+/*.column1{
   display: inline-block;
   width: 100%;
 }
@@ -67,7 +71,7 @@ h1{
 .column3{
   display: inline-block;
   width: 100%;
-}
+}*/
 
 .panel{
   margin-top: 30px;
