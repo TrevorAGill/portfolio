@@ -2,11 +2,20 @@ body{
  background-color: 	#f6eedf;
 }
 
+a{
+  color: ivory;
+}
+
 .jumbotron{
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #a5cfce;
   color: ivory;
+}
+
+.col-md-2{
+  margin-top: 20px;
+  margin-left: 0px;
 }
 
 .well{
@@ -45,21 +54,13 @@ body{
 
 .panel{
   margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .panel-heading{
   background-color: #a5cfce;
   color: ivory;
-  font-size: 12pt;
 }
-
-/*.project-title{
-  text-align: left;
-}
-
-.project-lang{
-  text-align: right;
-}*/
 
 .language{
   text-align: right;
