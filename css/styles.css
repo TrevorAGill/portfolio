@@ -1,5 +1,5 @@
 body{
- background-color: 	#f6eedf;
+ background-color: 	#a5cfce;
 }
 
 a{
@@ -14,7 +14,7 @@ h1{
 .jumbotron{
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #a5cfce;
+  background-color: #76b3b1;
   color: ivory;
   height: 140px;
   margin-top: 20px;
@@ -52,6 +52,8 @@ h1{
   text-align: justify;
   max-height: 320px;
   display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .col-md-4{
@@ -77,6 +79,13 @@ h1{
   color: ivory;
 }
 
+.workdescription{
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 300;
+  text-align: justify;
+}
+
 .language{
   text-align: right;
   color: black;
@@ -85,13 +94,20 @@ h1{
 .foursquare{
   width:98%;
   margin-left: 11px;
+  padding-bottom: 11px;
 }
 
 .gutter-10.row {
   margin-right: -5px;
   margin-left: -5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100%;
 }
 .gutter-10 > [class^="col-"], .gutter-10 > [class^=" col-"] {
   padding-right: 5px;
   padding-left: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 100%;
 }
