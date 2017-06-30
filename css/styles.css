@@ -1,5 +1,5 @@
-background{
-
+body{
+ background-color: 	#f6eedf;
 }
 
 .jumbotron{
@@ -41,4 +41,27 @@ background{
 .column3{
   display: inline-block;
   width: 100%;
+}
+
+.panel{
+  margin-top: 30px;
+}
+
+.panel-heading{
+  background-color: #a5cfce;
+  color: ivory;
+  font-size: 12pt;
+}
+
+/*.project-title{
+  text-align: left;
+}
+
+.project-lang{
+  text-align: right;
+}*/
+
+.language{
+  text-align: right;
+  color: black;
 }
