@@ -1,0 +1,44 @@
+background{
+
+}
+
+.jumbotron{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #a5cfce;
+  color: ivory;
+}
+
+.well{
+  height: 50vh auto;
+  overflow: auto;
+}
+
+.image{
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+
+.biosection{
+  width: 100%;
+  text-align: justify;
+  column-count: 3;
+  max-height: 300px;
+  display: inline-block;
+}
+
+.column1{
+  display: inline-block;
+  width: 100%;
+}
+
+.column2{
+  display: inline-block;
+  width: 100%;
+}
+
+.column3{
+  display: inline-block;
+  width: 100%;
+}
