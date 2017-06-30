@@ -6,17 +6,23 @@ a{
   color: ivory;
 }
 
+h1{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 .jumbotron{
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #a5cfce;
   color: ivory;
+  height: 140px;
 }
 
-.col-md-2{
-  margin-top: 20px;
+/*.col-md-2{
+  margin-top: 0px;
   margin-left: 0px;
-}
+}*/
 
 .well{
   height: 50vh auto;
@@ -27,12 +33,23 @@ a{
   float: left;
   height: 300px;
   width: 300px;
+  /*display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;*/
+}
+
+.img-cropper{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .biosection{
   width: 100%;
   text-align: justify;
-  column-count: 3;
   max-height: 300px;
   display: inline-block;
 }
