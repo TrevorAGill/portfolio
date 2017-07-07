@@ -8,6 +8,9 @@
 
 _This website serves as a personal portfolio demonstrating Trevor Gill's programming work. The site will contain a selection of websites written in HTML/CSS, Javascript code, and Java code._
 
+## Link
+[Trevor Gill's Portfolio](http://wedaft.github.io/portfolio)
+
 ## Setup/Installation Requirements
 
 * _Clone this repository to your local drive_
